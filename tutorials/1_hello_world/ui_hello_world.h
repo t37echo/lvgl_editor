@@ -13,8 +13,6 @@ extern "C" {
  *      INCLUDES
  *********************/
 
-#include "ui_hello_world_gen.h"
-
 /*********************
  *      DEFINES
  *********************/
