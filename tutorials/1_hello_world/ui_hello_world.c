@@ -1,12 +1,12 @@
 /**
- * @file ui_orbit.c
+ * @file ui_hello_world.c
  */
 
 /*********************
  *      INCLUDES
  *********************/
 
-#include "ui_orbit.h"
+#include "ui_hello_world.h"
 
 /*********************
  *      DEFINES
@@ -32,8 +32,10 @@
  *   GLOBAL FUNCTIONS
  **********************/
 
-void ui_orbit_init(const char * asset_path)
+void ui_hello_world_init(const char * asset_path)
 {
+    ui_hello_world_init_gen(asset_path);
+
     /* Add your own custom code here if needed */
 }
 

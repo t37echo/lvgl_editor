@@ -1,9 +1,9 @@
 /**
- * @file ui_ORBIT.h
+ * @file ui_hello_world.h
  */
 
-#ifndef UI_ORBIT_H
-#define UI_ORBIT_H
+#ifndef UI_HELLO_WORLD_H
+#define UI_HELLO_WORLD_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -12,6 +12,8 @@ extern "C" {
 /*********************
  *      INCLUDES
  *********************/
+
+#include "ui_hello_world_gen.h"
 
 /*********************
  *      DEFINES
@@ -32,7 +34,7 @@ extern "C" {
 /**
  * Initialize the component library
  */
-void ui_orbit_init(const char * asset_path);
+void ui_hello_world_init(const char * asset_path);
 
 /**********************
  *      MACROS
@@ -42,4 +44,4 @@ void ui_orbit_init(const char * asset_path);
 } /*extern "C"*/
 #endif
 
-#endif /*UI_ORBIT_H*/
+#endif /*UI_HELLO_WORLD_H*/
