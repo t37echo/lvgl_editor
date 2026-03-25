@@ -3,7 +3,7 @@
 		<style name="style_main" />
 		<lv_obj width="240" height="240" align="center" style_radius="120">
 			<style name="style_main" />
-			<lv_label text="Hello, orbit!" align="center" style_text_font="font_medium" />
+			<lv_label text="Hello, orbit!" align="center" />
 		</lv_obj>
 	</view>
 </screen>
