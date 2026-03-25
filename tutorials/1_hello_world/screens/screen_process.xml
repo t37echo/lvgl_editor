@@ -1,0 +1,9 @@
+<screen>
+	<view>
+		<style name="style_main" />
+		<lv_obj width="240" height="240" align="center" style_radius="120">
+			<style name="style_main" />
+			<lv_label text="Процесс" align="center" />
+		</lv_obj>
+	</view>
+</screen>
