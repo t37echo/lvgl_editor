@@ -8,7 +8,7 @@
 	</consts>
 
 	<styles>
-		<style name="style_main" bg_color="0x000" border_color="0xF80" text_color="0xF80" text_font="font_large" />
+		<style name="style_main" bg_color="0x000" border_color="0xF80" text_color="0xF80" text_font="font_medium" />
 	</styles>
 
 	<subjects>
@@ -21,7 +21,7 @@
 
 	<fonts>
 		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
-		<bin name="font_medium" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="20" bpp="4" />
-		<bin name="font_large" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="32" bpp="4" />
+		<bin name="font_medium" as_file="true" src_path="fonts/Montserrat_Medium.ttf" size="20" bpp="4" />
+		<bin name="font_large" as_file="true" src_path="fonts/Montserrat_Medium.ttf" size="32" bpp="4" />
 	</fonts>
 </globals>
